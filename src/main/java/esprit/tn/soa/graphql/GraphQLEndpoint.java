@@ -25,7 +25,7 @@ public class GraphQLEndpoint extends SimpleGraphQLServlet {
 		RendezVousRepository rvRepo=new RendezVousRepository();
       	return SchemaParser.newParser()
 				.file("schema.graphqls")
-			    .resolvers(new Query(logRepo,rvRepo))
+			    .resolvers(new Query(logRepo,rvRepo),new Mutation(logRepo, rvRepo))
 			    .build()
 			    .makeExecutableSchema();
 	}
