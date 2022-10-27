@@ -31,8 +31,8 @@ public class LogementRepository {
 		return liste;
 	}
     
-    public void saveLogement(Logement logement) {
-        logements.add(logement);
+    public boolean saveLogement(Logement logement) {
+        return logements.add(logement);
     }
     public Logement getLogementsByReference(int reference){
 		

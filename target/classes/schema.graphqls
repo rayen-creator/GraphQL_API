@@ -21,17 +21,22 @@ type RendezVous{
 	numTel:String!
 	}
    
- type Query {
+type Query {
   allLogements: [Logement] 
   getLogByRef(ref:Int!): Logement
   getLogByType(type:Type!): [Logement]
   allRendezVous: [RendezVous]
   getListeRendezVousByLogRef(ref:Int!): [RendezVous]
   getlogByRDV(idrdv:Int!): Logement
-
-  
   }
-  schema {
+  
+type Mutation {
+  AddRV(rv: RendezVous!): Boolean
+  AddLog(l: Logement!): Boolean
+} 
+  
+ schema {
   query: Query 
+  mutation: Mutation
   }
  
