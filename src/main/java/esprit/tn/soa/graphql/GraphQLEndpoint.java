@@ -11,7 +11,6 @@ import esprit.tn.soa.entity.RendezVous;
 import esprit.tn.soa.graphql.Query;
 import esprit.tn.soa.repository.LogementRepository;
 import esprit.tn.soa.repository.RendezVousRepository;
-import esprit.tn.soa.repository.StudentRepository;
 
 @WebServlet(urlPatterns = "/graphql")
 public class GraphQLEndpoint extends SimpleGraphQLServlet {

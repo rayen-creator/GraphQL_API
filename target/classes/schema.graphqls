@@ -23,8 +23,13 @@ type RendezVous{
    
  type Query {
   allLogements: [Logement] 
+  getLogByRef(ref:Int!): Logement
+  getLogByType(type:Type!): [Logement]
   allRendezVous: [RendezVous]
+  getListeRendezVousByLogRef(ref:Int!): [RendezVous]
   getlogByRDV(idrdv:Int!): Logement
+
+  
   }
   schema {
   query: Query 

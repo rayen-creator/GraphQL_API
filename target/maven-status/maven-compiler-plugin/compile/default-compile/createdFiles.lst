@@ -2,8 +2,6 @@ esprit\tn\soa\entity\RendezVous.class
 esprit\tn\soa\graphql\Query.class
 esprit\tn\soa\repository\RendezVousRepository.class
 esprit\tn\soa\repository\LogementRepository.class
-esprit\tn\soa\entity\Student.class
 esprit\tn\soa\entity\Logement.class
 esprit\tn\soa\entity\Logement$Type.class
 esprit\tn\soa\graphql\GraphQLEndpoint.class
-esprit\tn\soa\repository\StudentRepository.class

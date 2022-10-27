@@ -1,15 +1,30 @@
+enum Type{
+	Studio
+	Appartement
+ 	Villa 
+ 	EtageVilla
+	}
 type Logement {
+   reference: Int!
    adresse: String!
-   delegation: String!
-   gouvernorat: String!
+   delegation:String!
+   gouvernorat:String!
    type:Type!
    description:String!
-   prix:float!
+   prix:Float!
    }
+type RendezVous{
+	id:Int!
+	date:String!
+	heure:String!
+	logement:Logement!
+	numTel:String!
+	}
    
  type Query {
   allLogements: [Logement] 
-  
+  allRendezVous: [RendezVous]
+  getlogByRDV(idrdv:Int!): Logement
   }
   schema {
   query: Query 

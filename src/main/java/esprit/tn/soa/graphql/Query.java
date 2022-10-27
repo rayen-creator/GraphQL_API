@@ -6,10 +6,8 @@ import com.coxautodev.graphql.tools.GraphQLRootResolver;
 
 import esprit.tn.soa.entity.Logement;
 import esprit.tn.soa.entity.RendezVous;
-import esprit.tn.soa.entity.Student;
 import esprit.tn.soa.repository.LogementRepository;
 import esprit.tn.soa.repository.RendezVousRepository;
-import esprit.tn.soa.repository.StudentRepository;
 
 public class Query implements GraphQLRootResolver {
 
