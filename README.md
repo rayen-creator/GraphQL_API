@@ -5,8 +5,8 @@ GraphQL_API using JAVA
 Make sure you have installed all of the following prerequisites on your development machine:
 * Git - [Download & Install Git](https://git-scm.com/downloads). OSX and Linux machines typically have this already installed.
 * JDK 17 
-* IDE Support Java ( I use eclipse - [Download & Install eclipse](https://www.eclipse.org/etrice/downloads/)
-* Postman - [Download & Install Git](https://www.postman.com/downloads/)
+* IDE Support Java ( I use eclipse ) - [Download & Install eclipse](https://www.eclipse.org/etrice/downloads/)
+* Postman - [Download & Install Postman](https://www.postman.com/downloads/)
 <div align="center">
 <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=java,git,maven,eclipse,graphql" />
