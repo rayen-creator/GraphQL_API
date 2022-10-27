@@ -1,0 +1,17 @@
+type Logement {
+   adresse: String!
+   delegation: String!
+   gouvernorat: String!
+   type:Type!
+   description:String!
+   prix:float!
+   }
+   
+ type Query {
+  allLogements: [Logement] 
+  
+  }
+  schema {
+  query: Query 
+  }
+ 
