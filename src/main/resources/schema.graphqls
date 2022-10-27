@@ -31,8 +31,10 @@ type Query {
   }
   
 type Mutation {
-  AddRV(rv: RendezVous!): Boolean
-  AddLog(l: Logement!): Boolean
+  AddRV(rv: RendezVous!): Boolean!
+  AddLog(l: Logement!): Boolean!
+  DeleteRDV(id: Int!): Boolean!
+  UpdateRV(RendezVous!) : Boolean!
 } 
   
  schema {
